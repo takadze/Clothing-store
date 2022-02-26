@@ -1,0 +1,243 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* --------------navigation bar----------------- */
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img{
+    height: 60px;
+    padding-left: 20px;
+}
+.img-span{
+    color: rgb(236, 220, 220);
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.navbar-nav li{
+    padding:  0 20px;
+}
+.navbar-nav li a{
+    text-align: center;    
+}
+.nav-link:hover{
+    color: rgb(236, 28, 45)!important;
+}
+.navbar{
+    background: rgb(19, 17, 17);
+}
+#navbarDropdown{
+    color: rgb(236, 220, 220);
+}   
+.dropdown-item{
+    color: rgb(236, 220, 220);
+    background: rgb(19, 17, 17); 
+}
+.dropdown-menu{
+    background: rgb(19, 17, 17); 
+}
+.navbar-toggler{
+    border: none!important;
+}
+.navbar-toggler-icon{
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    
+}
+.nav-link{
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+
+
+.baner-area{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/background10.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.baner-content h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 72px;
+    font-weight: 1000;
+   margin: 0 auto;
+   padding-top: 150px;
+}
+
+.baner-content h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 52px;
+    font-weight: 400;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 30px;
+}
+
+.baner-content a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 16px 30px;
+    background-color: #f06db9;
+    border-radius: 50px;
+}
+.card-title{
+    margin-top: -60px;
+    /* float: right; */
+    color: #000000;
+    font-weight: 700;
+    font-size: 24px;
+    position: relative;
+}
+.card-body p{
+    min-width: 330px;
+}
+.text-baner2{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.text-baner2 p{
+    font-size: 25px;
+    font-weight: 300;
+    color: rgb(48, 48, 48);
+}
+.text-baner2 h1{
+    font-weight: 700;
+    font-size: 55px;
+
+}
+.my-card{
+    min-width: 300px;
+    
+}
+#icon{
+    margin-top: 50px;
+}
+.my-icon{
+    padding: 0px;
+    border: none;   
+    min-width: 250px; 
+    max-width: 330px;
+}
+.my-row2{
+    display: flex;
+    justify-content: center;
+}
+.my-icon .fa{
+    color: #f06db9;
+    font-size: 60px;
+    padding-left: 20px;
+}
+.my-icon h5{
+    color: #ffa0a4;
+    font-size: 40px;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.my-icon p{
+    color: #767676;
+    font-size: 20px;
+    font-weight: 300;
+    min-width: 300px;
+}
+
+
+.background-3 {
+    background-image: url(../img/background-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100%;
+
+}
+.Online-Shopping {
+    background: none;
+    border: none;
+}
+.Shopping-card-1 h5{
+    color: rgb(255, 255, 255);
+    width: 300px;
+}
+.Shopping-card-1 h5:hover{
+    color: #f06db9;
+    width: 300px;
+}
+.cart{
+    padding-top: 10px;
+}
+.cart a:hover{
+    color: #f06db9;
+}
+.cart a{
+     text-decoration: none;
+    color: white;
+}
+.Shopping-card-2{
+    display: flex;
+}
+.icon{
+    margin-right: 5px;
+}
+.icon-box{
+    margin-bottom: 15px;
+}
+.icon-name-box{
+    margin-bottom: 15px;
+}
+.icon-name-box a{
+    text-decoration: none;
+    color: white;
+}
+.icon-name-box a:hover{
+    text-decoration: none;
+    color: #f06db9;
+}
+.fa{
+    color: white;
+}
+.fa:hover{
+    color: #f06db9;
+}
+
+.credit-card{
+    height: 33px;
+    text-align: center;
+}
+.Shopping-card-3 h5{
+    color: white;
+    padding-bottom: 20px;
+}
+.Shopping-card-3 span{
+    color: #f06db9;
+}
+#grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 10px;
+  }
+  #grid > div {
+    font-size: 25px;
+    min-height: 200px;
+    text-align: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
